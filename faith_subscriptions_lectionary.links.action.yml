@@ -1,0 +1,5 @@
+lectionary.add_form:
+  title: 'Add lectionary'
+  route_name: entity.lectionary.add_form
+  appears_on:
+    - entity.lectionary.collection

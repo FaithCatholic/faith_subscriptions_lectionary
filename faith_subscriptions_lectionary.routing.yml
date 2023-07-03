@@ -1,0 +1,7 @@
+entity.lectionary.settings:
+  path: 'admin/structure/lectionary'
+  defaults:
+    _form: '\Drupal\faith_subscriptions_lectionary\Form\LectionarySettingsForm'
+    _title: 'Lectionary'
+  requirements:
+    _permission: 'administer lectionary'

@@ -1,0 +1,22 @@
+entity.lectionary.settings:
+  title: 'Settings'
+  route_name: entity.lectionary.settings
+  base_route: entity.lectionary.settings
+entity.lectionary.view:
+  title: 'View'
+  route_name: entity.lectionary.canonical
+  base_route: entity.lectionary.canonical
+entity.lectionary.edit_form:
+  title: 'Edit'
+  route_name: entity.lectionary.edit_form
+  base_route: entity.lectionary.canonical
+entity.lectionary.delete_form:
+  title: 'Delete'
+  route_name: entity.lectionary.delete_form
+  base_route: entity.lectionary.canonical
+  weight: 10
+entity.lectionary.collection:
+  title: 'Lectionaries'
+  route_name: entity.lectionary.collection
+  base_route: system.admin_content
+  weight: 10

@@ -1,0 +1,8 @@
+.node-entity--type-lectionary .field__item {
+  margin: 0;
+}
+
+.node-entity--type-lectionary .field--name-field-lectionary-number {
+  font-size: 2em;
+  font-weight: 700;
+}

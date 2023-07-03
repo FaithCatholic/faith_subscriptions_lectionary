@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lectionary.field_lectionary_readings
+  module:
+    - faith_subscriptions_lectionary
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: Readings
+id: lectionary.lectionary.field_lectionary_readings
+field_name: field_lectionary_readings
+entity_type: lectionary
+bundle: lectionary
+label: 'Lectionary readings'
+description: 'Book, chapter, and verse(s) for each reading of this Lectionary.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

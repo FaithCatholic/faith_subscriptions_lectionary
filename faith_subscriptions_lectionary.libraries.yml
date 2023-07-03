@@ -1,0 +1,5 @@
+lectionary:
+  version: VERSION
+  css:
+    component:
+      css/lectionary.css : {}

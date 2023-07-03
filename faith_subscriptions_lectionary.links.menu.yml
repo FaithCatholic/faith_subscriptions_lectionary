@@ -1,0 +1,5 @@
+entity.lectionary.settings:
+  title: 'Lectionary'
+  description: 'Configure a Lectionary entity type.'
+  route_name:  entity.lectionary.settings
+  parent: system.admin_structure

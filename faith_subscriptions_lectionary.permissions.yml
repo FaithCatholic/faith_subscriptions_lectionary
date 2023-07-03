@@ -1,0 +1,11 @@
+administer lectionary:
+  title: 'Administer lectionary settings'
+  restrict access: true
+delete lectionary:
+  title: Delete lectionary
+create lectionary:
+  title: Create lectionary
+view lectionary:
+  title: View lectionary
+edit lectionary:
+  title: Edit lectionary

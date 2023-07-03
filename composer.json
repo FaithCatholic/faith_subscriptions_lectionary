@@ -1,0 +1,14 @@
+{
+    "name": "faithcatholic/faith_subscriptions_lectionary",
+    "description": "Provides lectionary entity type for readings.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Nicholas Ketchum",
+            "email": "nketchum@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

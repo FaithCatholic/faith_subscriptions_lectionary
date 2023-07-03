@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lectionary.lectionary.field_lectionary_number
+    - field.field.lectionary.lectionary.field_lectionary_readings
+  module:
+    - faith_subscriptions_lectionary
+id: lectionary.lectionary.default
+targetEntityType: lectionary
+bundle: lectionary
+mode: default
+content:
+  field_lectionary_number:
+    type: number
+    weight: -4
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_lectionary_readings:
+    type: string_textfield
+    weight: -3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  label:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    description: 'For internal use only.'
+hidden: {  }

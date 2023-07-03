@@ -1,0 +1,10 @@
+entity.lectionary.edit_form:
+  route_name: entity.lectionary.edit_form
+  group: lectionary
+  title: Edit
+
+entity.lectionary.delete_form:
+  route_name: entity.lectionary.delete_form
+  group: lectionary
+  title: Delete
+  weight: 10

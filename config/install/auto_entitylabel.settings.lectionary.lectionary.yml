@@ -1,0 +1,10 @@
+status: 1
+pattern: 'Lectionary [lectionary:field_lectionary_number]'
+escape: true
+preserve_titles: false
+save: false
+chunk: 50
+dependencies:
+  module:
+    - auto_entitylabel
+    - faith_subscriptions_lectionary

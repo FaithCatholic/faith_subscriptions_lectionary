@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.lectionary.lectionary.field_lectionary_number
+    - field.field.lectionary.lectionary.field_lectionary_readings
+  module:
+    - faith_subscriptions_lectionary
+id: lectionary.lectionary.default
+targetEntityType: lectionary
+bundle: lectionary
+mode: default
+content:
+  field_lectionary_number:
+    type: number_integer
+    label: hidden
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_lectionary_readings:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  label: true

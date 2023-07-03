@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.lectionary.field_lectionary_number
+  module:
+    - faith_subscriptions_lectionary
+    - field_display_label
+third_party_settings:
+  field_display_label:
+    display_label: Lectionary
+id: lectionary.lectionary.field_lectionary_number
+field_name: field_lectionary_number
+entity_type: lectionary
+bundle: lectionary
+label: 'Lectionary number'
+description: 'Enter the digits representing the canonized number of this Lectionary.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

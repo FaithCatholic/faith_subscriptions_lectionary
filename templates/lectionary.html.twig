@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Custom theme implementation to present a lectionary entity.
+ *
+ * This template is used when viewing a canonical lectionary page,
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ *   print a subset such as 'content.label'.
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_lectionary()
+ */
+#}
+
+{{ attach_library('faith_subscriptions_lectionary/lectionary') }}
+
+{% if content %}
+  <article{{ attributes.addClass('node-entity', 'node-entity--type-lectionary', 'node-entity--view-mode-full') }}>
+    <div class="field__label">Lectionary</div>
+    {{- content -}}
+  </article>
+{% endif %}
