@@ -1,6 +1,6 @@
 {
     "name": "faithcatholic/faith_subscriptions_lectionary",
-    "description": "Provides lectionary entity type for readings.",
+    "description": "Provides lectionary entity type.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "authors": [

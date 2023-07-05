@@ -27,12 +27,12 @@ class LectionaryForm extends ContentEntityForm {
     switch ($result) {
       case SAVED_NEW:
         $this->messenger()->addStatus($this->t('New lectionary %label has been created.', $message_arguments));
-        $this->logger('faith_subscriptions_lectionary')->notice('Created new lectionary %label', $logger_arguments);
+        $this->logger('faith_subscriptions_lectionary')->notice('Created new lectionary', $logger_arguments);
         break;
 
       case SAVED_UPDATED:
         $this->messenger()->addStatus($this->t('The lectionary %label has been updated.', $message_arguments));
-        $this->logger('faith_subscriptions_lectionary')->notice('Updated lectionary %label.', $logger_arguments);
+        $this->logger('faith_subscriptions_lectionary')->notice('Updated lectionary', $logger_arguments);
         break;
     }
 

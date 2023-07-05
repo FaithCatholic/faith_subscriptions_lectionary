@@ -1,6 +1,6 @@
 # FAITH Subscriptions Lectionary
 
-This module provides a new entity: lectionary. Lectionaries are numbered lists of specific biblical readings that match a particular theme, which are standarzied across the Church. This information is usually displayed within the main site content.
+This module provides a new content entity: lectionary. Lectionaries are numbered lists of specific biblical readings that match a particular theme, which are standarzied across the Church. This information is usually displayed within the main site content.
 
 This data is stored as an entity to improve re-usability. Lectionaries are a somewhat standard set of readings within the Church, and keeping this data in a separate entity allows easier modification in the future without jeopardizing functionality of other content. This model also avoids duplicating data that may prove troublesome.
 

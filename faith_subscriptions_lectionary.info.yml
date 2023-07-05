@@ -1,8 +1,9 @@
 name: Faith Subscriptions Lectionary
 type: module
-description: Provides lectionary functionality.
-package: Custom
+description: Provides additional functionality for the site.
+package: Faith subscriptions miscellaneous
 core_version_requirement: ^9 || ^10
 dependencies:
   - drupal:auto_entitylabel
   - drupal:field_display_label
+  - drupal:text

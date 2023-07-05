@@ -1,4 +1,4 @@
-status: 1
+status: 3
 pattern: 'Lectionary [lectionary:field_lectionary_number]'
 escape: true
 preserve_titles: false
