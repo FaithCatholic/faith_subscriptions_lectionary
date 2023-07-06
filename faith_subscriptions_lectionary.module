@@ -35,4 +35,3 @@ function template_preprocess_lectionary(array &$variables) {
     $variables['content'][$key] = $variables['elements'][$key];
   }
 }
-

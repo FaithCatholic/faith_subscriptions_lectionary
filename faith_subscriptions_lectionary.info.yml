@@ -7,3 +7,4 @@ dependencies:
   - drupal:auto_entitylabel
   - drupal:field_display_label
   - drupal:text
+  - drupal:token

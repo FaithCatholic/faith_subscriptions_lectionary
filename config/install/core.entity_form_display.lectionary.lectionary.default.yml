@@ -35,4 +35,4 @@ content:
       placeholder: ''
     third_party_settings: {  }
     description: 'For internal use only.'
-hidden: {  }
+hidden: { }
